@@ -12,10 +12,12 @@ function Icon({ icon, ...props }) {
 
 function SidebarContent() {
   return (
-    <div className="py-4 text-gray-500 dark:text-gray-400">
-      <a className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="#">
+    <div className="text-gray-500 dark:text-gray-400">
+      <div className="bg-purple-800 w-full py-5">
+      <a className="ml-6 text-lg font-bold text-white dark:text-gray-200 w-full" href="#">
          Dashboard
       </a>
+      </div>
       <ul className="mt-6">
         {routes.map((route) =>
           route.routes ? (

@@ -60,7 +60,7 @@ function Dashboard() {
         >
           <RoundIcon
             icon={MoneyIcon}
-            iconColorClass="text-orange-500 dark:text-orange-100"
+            iconColorClass="text-orange-500 dark:text-orange-100 text-xl"
             bgColorClass=""
             className="mr-4"
           />
@@ -117,6 +117,47 @@ function Dashboard() {
        Month <span dangerouslySetInnerHTML={{ __html: '&RightArrow;' }}></span>
       </span>
     </a>
+
+<div>
+ <p className="my-1 text-gray-500 text-xs	">Oblong T-shirt </p>
+    <div className="h-3 my-3 relative max-w-xl rounded-full overflow-hidden">
+        <div className="w-full h-full bg-gray-200 absolute"></div>
+        <div id="bar" class="transition-all ease-out duration-1000 h-full bg-orange-400	 relative w-4/6"></div>
+    </div>
+</div>
+
+<div>
+ <p className="my-1 text-gray-500 text-xs	">Oblong T-shirt </p>
+    <div class="h-3 my-3 relative max-w-xl rounded-full overflow-hidden">
+        <div class="w-full h-full bg-gray-200 absolute"></div>
+        <div id="bar" class="transition-all ease-out duration-1000 h-full bg-green-500 relative w-3/6"></div>
+    </div>
+    </div>
+
+    <div>
+ <p className="my-1 text-gray-500 text-xs">Oblong T-shirt </p>
+    <div class="h-3 my-3 relative max-w-xl rounded-full overflow-hidden">
+        <div class="w-full h-full bg-gray-200 absolute"></div>
+        <div id="bar" class="transition-all ease-out duration-1000 h-full bg-orange-500	 relative w-4/6"></div>
+    </div>
+    </div>
+ 
+    <div>
+ <p className="my-1 text-gray-500 text-xs">Oblong T-shirt </p>
+    <div class="h-3 my-3 relative max-w-xl rounded-full overflow-hidden">
+   
+        <div class="w-full h-full bg-gray-200 absolute"></div>
+        <div id="bar" class="transition-all ease-out duration-1000 h-full bg-purple-500 relative w-5/6"></div>
+    </div>
+  </div>
+
+  <div>
+ <p className="my-1 text-gray-500 text-xs">Oblong T-shirt </p>
+    <div class="h-3 my-3 relative max-w-xl rounded-full overflow-hidden">
+        <div class="w-full h-full bg-gray-200 absolute"></div>
+        <div id="bar" class="transition-all ease-out duration-1000 h-full bg-green-500 relative w-2/6"></div>
+    </div>
+    </div>
           </CardBody>
         </Card>
         </div>

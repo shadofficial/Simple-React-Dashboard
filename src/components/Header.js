@@ -28,11 +28,11 @@ function Header() {
   }
 
   return (
-    <header className="z-40 py-4 bg-white shadow-bottom dark:bg-gray-800">
-      <div className="container flex items-center justify-between h-full px-6 mx-auto text-purple-600 dark:text-purple-300">
+    <header className="z-40 py-4 bg-purple-600 shadow-bottom dark:bg-gray-800">
+      <div className="container flex items-center justify-between h-full px-6 mx-auto text-white dark:text-purple-300">
         {/* <!-- Mobile hamburger --> */}
         <button
-          className="p-1 mr-5 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-purple"
+          className="p-1 mr-5 -ml-1 text-white rounded-md lg:hidden focus:outline-none focus:shadow-outline-purple"
           onClick={toggleSidebar}
           aria-label="Menu"
         >
@@ -105,7 +105,7 @@ function Header() {
                 alt=""
                 aria-hidden="true"
               />
-              <span className='ml-2'>Maman kateparak</span>
+              <span className='ml-2 text-white'>Maman kateparak</span>
             </button>
             <Dropdown
               align="right"
